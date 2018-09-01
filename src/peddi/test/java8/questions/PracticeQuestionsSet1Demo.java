@@ -1,7 +1,7 @@
 /**
  * 
  */
-package questions;
+package peddi.test.java8.questions;
 
 import static org.junit.Assert.*;
 
