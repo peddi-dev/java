@@ -18,3 +18,9 @@ java -p mods/ -m com.greetings/com.greetings.Main
 jar -c -f mlib/com.socket@1.0.jar --module-version=1.0 -C mods/com.socket/ .
 jar -c -f mlib/org.fastsocket@1.0.jar --module-version=1.0 -C mods/org.fastsocket/ .
 jar -c -f mlib/com.greetings.jar --main-class=com.greetings.Main -C mods/com.greetings/ .
+
+#jlink custom run time image
+jlink --module-path /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/jmods:mlib --add-modules com.greetings,org.fastsocket --output greetingsapp
+jlink --module-path /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/jmods:mlib --add-modules com.greetings,org.fastsocket --compress 2 --output greetingsapp
+#running java module from the custom runtime image(JRE)
+greetingsappc/bin/java -m com.greetings
