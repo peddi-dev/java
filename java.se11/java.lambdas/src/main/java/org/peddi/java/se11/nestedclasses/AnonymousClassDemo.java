@@ -52,8 +52,8 @@ public class AnonymousClassDemo {
     }
 
 //    public static void main(String... args) {
-//        HelloWorldAnonymousClasses myApp =
+//        HelloWorldAnonymousClasses this =
 //                new HelloWorldAnonymousClasses();
-//        myApp.sayHello();
+//        this.sayHello();
 //    }
 }
