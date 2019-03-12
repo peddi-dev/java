@@ -11,18 +11,33 @@ import java.util.stream.Collectors;
 
 public class DataSearchLambdaDemo {
 
+    public DataSearchLambdaDemo(){
 
+        this.members.add(new Person("AUser1", LocalDate.of(1970, Month.APRIL, 10), Person.SEX.MALE, "user1@abc.com"));
+        this.members.add(new Person("BUser2", LocalDate.of(1960, Month.JANUARY, 5), Person.SEX.MALE, "user2@abc.com"));
+        this.members.add(new Person("CUser3", LocalDate.of(1980, Month.MAY, 10), Person.SEX.FEMALE, "user3@abc.com"));
+        this.members.add(new Person("ZUser4", LocalDate.of(1975, Month.JUNE, 10), Person.SEX.MALE, "user4@abc.com"));
+        this.members.add(new Person("XUser5", LocalDate.of(1990, Month.SEPTEMBER, 10), Person.SEX.FEMALE, "user5@abc.com"));
+        this.members.add(new Person("YUser6", LocalDate.of(1990, Month.AUGUST, 10), Person.SEX.MALE, "user6@abc.com"));
+
+    }
 
     public DataSearchLambdaDemo(List<Person> members) {
-        if( members != null)
-            this.members = members;
 
-        this.members.add(new Person("User1", LocalDate.of(1970, Month.APRIL, 10), Person.SEX.MALE, "user1@abc.com"));
-        this.members.add(new Person("User2", LocalDate.of(1960, Month.JANUARY, 5), Person.SEX.MALE, "user2@abc.com"));
-        this.members.add(new Person("User3", LocalDate.of(1980, Month.MAY, 10), Person.SEX.FEMALE, "user3@abc.com"));
-        this.members.add(new Person("User4", LocalDate.of(1975, Month.JUNE, 10), Person.SEX.MALE, "user4@abc.com"));
-        this.members.add(new Person("User5", LocalDate.of(1990, Month.SEPTEMBER, 10), Person.SEX.FEMALE, "user5@abc.com"));
-        this.members.add(new Person("User6", LocalDate.of(1990, Month.AUGUST, 10), Person.SEX.MALE, "user6@abc.com"));
+        this();
+
+        if( members != null)
+            this.members.addAll( members );
+
+
+
+
+//        this.members.add(new Person("AUser1", LocalDate.of(1970, Month.APRIL, 10), Person.SEX.MALE, "user1@abc.com"));
+//        this.members.add(new Person("BUser2", LocalDate.of(1960, Month.JANUARY, 5), Person.SEX.MALE, "user2@abc.com"));
+//        this.members.add(new Person("CUser3", LocalDate.of(1980, Month.MAY, 10), Person.SEX.FEMALE, "user3@abc.com"));
+//        this.members.add(new Person("ZUser4", LocalDate.of(1975, Month.JUNE, 10), Person.SEX.MALE, "user4@abc.com"));
+//        this.members.add(new Person("XUser5", LocalDate.of(1990, Month.SEPTEMBER, 10), Person.SEX.FEMALE, "user5@abc.com"));
+//        this.members.add(new Person("YUser6", LocalDate.of(1990, Month.AUGUST, 10), Person.SEX.MALE, "user6@abc.com"));
     }
 
     public List<Person> getMembers() {
