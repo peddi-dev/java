@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 public class InnerClassDemoTest {
-	private final InnerClassDemo ds = new InnerClassDemo();
+	private final InnerClassDemo myApp = new InnerClassDemo();
 
 	@Test
 	public void testPrintEven() {
@@ -13,7 +13,7 @@ public class InnerClassDemoTest {
       // values of even indices
 
 	  System.out.println("**** InnerClassDemoTest");
-      ds.printEven();
+      myApp.printEven();
       assertTrue( true );
 	}
 
