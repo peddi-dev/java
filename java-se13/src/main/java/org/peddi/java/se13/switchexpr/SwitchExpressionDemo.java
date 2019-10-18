@@ -1,6 +1,6 @@
-package org.peddi.javase.java13.switchexpr;
+package org.peddi.java.se13.switchexpr;
 
-import org.peddi.javase.java13.common.Day;
+import org.peddi.java.se13.common.Day;
 
 /**
  * Switch Expression

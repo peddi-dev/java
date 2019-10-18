@@ -1,4 +1,4 @@
-package org.peddi.javase.java13.common;
+package org.peddi.java.se13.common;
 
 public enum Day {
     SUNDAY,

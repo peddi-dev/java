@@ -1,4 +1,4 @@
-package org.peddi.javase.java13;
+package org.peddi.java.se13;
 
 /**
  * Hello world!
