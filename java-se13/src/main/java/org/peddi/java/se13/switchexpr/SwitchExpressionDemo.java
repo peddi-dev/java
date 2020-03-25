@@ -4,11 +4,12 @@ import org.peddi.java.se13.common.Day;
 
 /**
  * Switch Expression
- *
+ * 
  */
 public class SwitchExpressionDemo 
 {
     /**
+     * Switch with arrow label 
      * Switch expression returns the value in this example
      * @param d
      * @return
@@ -16,16 +17,17 @@ public class SwitchExpressionDemo
     public int charCountInDayOfWeek(Day d){
 
         return switch(d){
-            case SUNDAY, MONDAY, FRIDAY -> 6;
-            case TUESDAY -> 7;
-            case THURSDAY,SATURDAY -> 8;
-            case WEDNESDAY ->9;
+            case SUNDAY, MONDAY, FRIDAY -> Day.SUNDAY.toString().length();
+            case TUESDAY -> Day.TUESDAY.toString().length();
+            case THURSDAY,SATURDAY -> Day.THURSDAY.toString().length();
+            case WEDNESDAY -> Day.WEDNESDAY.toString().length();
 
         };
     }
 
     /**
      * yield statement in switch expression
+     * default clause required in switch expression, in case of enums compiler inserts the default clause
      */
     public int switchWithYield(String s){
         return switch (s) {

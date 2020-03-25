@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AnonymousClassDemoTest {
+public class AnonymousClassDemoTest {
     private final AnonymousClassDemo myApp = new AnonymousClassDemo();
 
     @Test
-    void testSayHello() {
+    public void testSayHello() {
         System.out.println("***** AnonymousClassDemoTest");
         myApp.sayHello();
         assertTrue( true );

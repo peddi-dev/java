@@ -1,4 +1,4 @@
-package org.peddi.java.se11.lambads;
+package org.peddi.java.se11.lambdas;
 
 import java.time.LocalDate;
 import java.time.Period;

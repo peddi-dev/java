@@ -1,11 +1,11 @@
-package org.peddi.java.se11.lambads.defaultmethods;
+package org.peddi.java.se11.lambdas.defaultmethods;
 
 import org.junit.jupiter.api.Test;
-import org.peddi.java.se11.lambads.DataSearchLambdaDemo;
+import org.peddi.java.se11.lambdas.DataSearchLambdaDemo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DefaultMethodDemoTest {
+public class DefaultMethodDemoTest {
     private final DefaultMethodDemo app = new DefaultMethodDemo();
 
     @Test

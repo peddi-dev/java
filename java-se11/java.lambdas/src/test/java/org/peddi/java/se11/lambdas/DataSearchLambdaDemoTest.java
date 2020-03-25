@@ -1,17 +1,17 @@
-package org.peddi.java.se11.lambads;
+package org.peddi.java.se11.lambdas;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.peddi.java.se11.lambads.DataSearchLambdaDemo.Filter;
+import org.peddi.java.se11.lambdas.DataSearchLambdaDemo.Filter;
 
-class DataSearchLambdaDemoTest {
+public class DataSearchLambdaDemoTest {
 
     private final DataSearchLambdaDemo myApp = new DataSearchLambdaDemo(null);
 
     @Test
-    void searchPersonsWithLocalFilter() {
+    public void searchPersonsWithLocalFilter() {
 
 
         myApp.searchPersonsWithLocalFilter();
@@ -20,7 +20,7 @@ class DataSearchLambdaDemoTest {
 
 
     @Test
-    void searchPersonsWithAnonymousFilter() {
+    public void searchPersonsWithAnonymousFilter() {
 
         myApp.searchPersonsWithAnonymousFilter();
         assertTrue(true);
@@ -28,7 +28,7 @@ class DataSearchLambdaDemoTest {
 
 
     @Test
-    void searchPersonsWithLambdaExpressionFilter() {
+    public void searchPersonsWithLambdaExpressionFilter() {
 
         myApp.searchPersonsWithLambdaExpressionFilter();
 
@@ -37,26 +37,21 @@ class DataSearchLambdaDemoTest {
 
 
     @Test
-    void searchPersonsWithPredicate() {
+    public void searchPersonsWithPredicate() {
 
         myApp.searchPersonsWithPredicate();
         assertTrue(true);
     }
 
     @Test
-    void searchPersonsWithPredicateFunctionConsumer() {
-
+    public void searchPersonsWithPredicateFunctionConsumer() {
         myApp.searchPersonsWithPredicateFunctionConsumer();
         assertTrue(true);
     }
 
     @Test
-    void processPersonsUsingAggregateOperationsWithLambdaExpressions(){
+    public void processPersonsUsingAggregateOperationsWithLambdaExpressions(){
         myApp.processPersonsUsingAggregateOperationsWithLambdaExpressions();
         assertTrue(true);
     }
-
-
-
-
 }

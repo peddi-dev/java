@@ -1,6 +1,6 @@
-package org.peddi.java.se11.lambads.defaultmethods;
+package org.peddi.java.se11.lambdas.defaultmethods;
 
-import org.peddi.java.se11.lambads.Person;
+import org.peddi.java.se11.lambdas.Person;
 
 
 import java.util.Collections;
@@ -17,7 +17,7 @@ public class DefaultMethodDemo {
     public void sortPersonsUsingListSortDefaultMethodAndMethodReference(List<Person> personList){
 
         personList.sort(comparing(Person::getName).reversed());
-        System.out.println("******* Default List.sort() and Method reference for default method Comparator.comparing()");
+        System.out.println("******* Default method List.sort() and Method reference for default method Comparator.comparing()");
         System.out.println(personList);
     }
 
