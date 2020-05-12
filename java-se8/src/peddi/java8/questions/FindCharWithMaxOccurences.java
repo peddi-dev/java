@@ -9,11 +9,8 @@ public class FindCharWithMaxOccurences {
 
        Map<Character, Integer> frequency = new HashMap<>();
 
-
        char maxChar = ' ';
        int maxCount = 0;
-
-
 
        char[] ca = input.toCharArray();
        Integer count = 0;

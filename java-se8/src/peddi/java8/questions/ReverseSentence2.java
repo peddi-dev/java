@@ -7,10 +7,6 @@ import java.util.Scanner;
 public class ReverseSentence2 {
 
 
-
-
-
-
     public String reverseSentence(String input){
 
         StringBuilder output = new StringBuilder();
