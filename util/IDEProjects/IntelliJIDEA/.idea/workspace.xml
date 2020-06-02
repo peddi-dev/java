@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5cbb735-9ba6-4db1-8dc8-c5096d0fd601" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../java-se11/java.jpms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java-se11/java.jpms/java.jpms.maven/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java-se11/java.jpms/java.jpms.maven/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java-se11/java.jpms/java.jpms.maven/src/main/java/org.peddi.java.se11/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java-se11/java.jpms/java.jpms.maven/src/main/java/org.peddi.java.se11/org/peddi/java/se11/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Eclipse/java-se/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Eclipse/java-se/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Eclipse/java-se/.settings/org.springframework.ide.eclipse.xml.namespaces.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-se/java-se.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-se" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se/org/peddi/javase/jaxp/stax/cursor/CursorApproachEventObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-se/org/peddi/javase/jaxp/stax/cursor/CursorApproachEventObjectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/bin/java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/bin/keytool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/limited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/include/classfile_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/include/darwin/jni_md.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/include/jni.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/include/jvmti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/include/jvmticmlr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/aes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/asm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/c-libutl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/cldr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/icu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/public_suffix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/legal/java.base/unicode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/jli/libjli.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/jrt-fs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/jspawnhelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libjava.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libjimage.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libnet.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libnio.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libosxsecurity.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libverify.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/libzip.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/security/default.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/security/public_suffix_list.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/server/libjsig.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/server/libjvm.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/greetingsapp/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mlib/com.greetings.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mlib/com.socket@1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mlib/org.astro@1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mlib/org.fastsocket@1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/com.greetings/com/greetings/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/com.greetings/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/com.socket/com/socket/NetworkSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/com.socket/com/socket/spi/NetworkSocketProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/com.socket/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/org.astro/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/org.astro/org/astro/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/org.fastsocket/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/org.fastsocket/org/fastsocket/FastNetworkSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-se11/java.jpms/mods/org.fastsocket/org/fastsocket/FastNetworkSocketProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eclipse/JavaSEPrj1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSEPrj2.zip" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1clJNgzaW4m2xQFE1IzBCXBvG5i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14777328" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CursorApproachEventObjectDemo">
+    <configuration name="CursorApproachEventObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.peddi.javase.jaxp.stax.cursor.CursorApproachEventObjectDemo" />
+      <module name="java-se" />
+      <option name="VM_PARAMETERS" value="--add-exports=java.xml/com.sun.xml.internal.stream.events=javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.peddi.javase.jaxp.stax.cursor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.peddi.javase.collections.core.set.SetDemo" />
+      <module name="java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.peddi.javase.collections.core.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SetDemo" />
+      <item itemvalue="Application.CursorApproachEventObjectDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CursorApproachEventObjectDemo" />
+        <item itemvalue="Application.SetDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5cbb735-9ba6-4db1-8dc8-c5096d0fd601" name="Default Changelist" comment="" />
+      <created>1591097207286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591097207286</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
