@@ -1,0 +1,28 @@
+package org.peddi.javase.concurrency.deadlock;
+
+public class Friend {
+	
+	private final String name;
+	
+	public Friend(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public synchronized void bow(Friend bower) {
+		
+		System.out.format("%s: %s " + " has bowed to me!%n", this.getName(), bower.getName());
+		
+		bower.bowBack(this);
+	}
+
+	public synchronized void bowBack(Friend bower) {
+		
+		System.out.format("%s: %s " + " has bowed Back to me!%n", this.getName(), bower.getName());
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ARTICLE>
+    <TITLE>A Sample Article</TITLE>
+    <SECT>The First Major Section
+        [...]
+    </SECT>
+    <SECT>The Second Major Section
+        [...]
+    </SECT>
+    <SECT>The <i>Third</i>
+        Major Section
+        <PARA>In addition to the inline tag
+            in the heading,
+            this section defines the term
+            <DEF>inline</DEF>,
+            which literally means "no line break".
+            It also adds a simple link to the main page
+            for the Java platform
+            (<LINK>http://java.sun.com</LINK>),
+            as well as a link to the
+            <LINK target="http://java.sun.com/xml">
+                XML </LINK>
+            page.
+        </PARA>
+    </SECT>
+</ARTICLE>

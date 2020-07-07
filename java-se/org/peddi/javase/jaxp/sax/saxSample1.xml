@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organization>
+    <Person role="Employee">
+        <FirstName>John</FirstName>
+        <LastName>Rhodes</LastName>
+    </Person>
+    <Person role="Manager">
+        <FirstName>David</FirstName>
+        <LastName>Raffo</LastName>
+    </Person>
+</Organization>
