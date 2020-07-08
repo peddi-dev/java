@@ -1,4 +1,5 @@
 Workflow 0 - importing local repository into the github using commandline
+************************************************************************
 1) create new local repository
    $git init
    $git add file1 file2 file3 
@@ -17,7 +18,7 @@ Workflow 0 - importing local repository into the github using commandline
   $git push origin master
    
 Workflow 1 - working on the local master branch
-
+***********************************************
 1) Create new git repository in a directory where you have the existed project  or you will be creating the new project
 $ git init
 or get copy of existed git repository from the remote server into the local
@@ -38,6 +39,7 @@ project phase 1 changees are merged from the local master to the remote.
 
 
 Workflow 2 - Using local branches
+*********************************
 $ git init/clone
 
 #create new local user branch
