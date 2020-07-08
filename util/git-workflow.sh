@@ -1,3 +1,21 @@
+Workflow 0 - importing local repository into the github using commandline
+1) create new local repository
+   $git init
+   $git add file1 file2 file3 
+   $git commit
+   
+2)  go to the https://github.com/ 
+    create a new repository "app-repo1"
+    copy the url of the new repository 
+ 
+3) add remote repository to the local repository
+  $git remote add origin <github repository url>
+
+4) check the remote repository
+   $ git remote -v
+5) push the local repositoy to the remote
+  $git push origin master
+   
 Workflow 1 - working on the local master branch
 
 1) Create new git repository in a directory where you have the existed project  or you will be creating the new project
